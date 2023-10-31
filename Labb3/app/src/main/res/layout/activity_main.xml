@@ -7,6 +7,7 @@
     tools:context=".MainActivity"
     android:background="#DDDDDD">
 
+
     <TextView
         android:id="@+id/rubrik"
         android:layout_width="match_parent"
@@ -19,6 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/artistInput"
         android:layout_width="wrap_content"
@@ -29,6 +31,7 @@
         app:layout_constraintEnd_toStartOf="@+id/searchButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rubrik" />
+
 
     <Button
         android:id="@+id/searchButton"
@@ -41,6 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rubrik" />
 
+
     <Button
         android:id="@+id/clearButton"
         android:layout_width="wrap_content"
@@ -51,6 +55,7 @@
         android:text="Clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchButton" />
+
 
     <TextView
         android:id="@+id/artistContent"

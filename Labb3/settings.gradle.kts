@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LastFM"
+rootProject.name = "lastFM"
 include(":app")
